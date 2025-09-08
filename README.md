@@ -231,9 +231,12 @@ e) Confirme o valor do orçamento clicando no botão "Visualizar Resumo"
 
 ![Finalizando a cotação](assets/4_2_e.png)
 
-Com isso a calculadora vai mostrar um resumo dos seus custos, que para o meu usuário, no momento da realização desta cotação, ficou em US$ 73,56 por ano já incluindo um custo inicial. 
+Com isso a calculadora vai mostrar um resumo dos seus custos, que para o meu usuário, no momento da realização desta cotação, ficou em US$ 58,68 por ano já incluindo um custo inicial. 
 
 ![Resumo final](assets/4_2_f.png)
+
+Segue o link para o video da explicação do uso da calculadora AWS: 
+<a href="https://youtu.be/fE5j5tk_hIk">Video no Youtube</a>
 
 ## 📁 Estrutura de pastas
 
