@@ -28,7 +28,7 @@ Este repositório contém os assets usados para explorar a base de dados de cult
 - Encontrar tendencias para os rendimentos das plantações usando modelos não supervisionados para agrupar (clusterização) os dados da base permitindo inclusive identificar os "pontos fora da curva" chamados outliers.
 - Prever o rendimento da safra usando modelos supervisionados de predição (testar 5 algoritmos diferentes comprando sua performance com indicadores com acurácia, precisão e F1-Score)
 
-Todo o projeto explicado neste tutorial esta detalhado (usando a mesma estrutura de capíulos no Jupyter Notebook na pasta raiz deste repositório: [Codigo](RichardMarques_rm563313_pbl_fase5.jpynb)
+Todo o projeto explicado neste tutorial esta detalhado (usando a mesma estrutura de capíulos no Jupyter Notebook na pasta assets deste repositório: [Codigo](assets/RichardMarques_%20rm563313_pbl_fase5.ipynb)
 
 ### Pre-requisitos
 
