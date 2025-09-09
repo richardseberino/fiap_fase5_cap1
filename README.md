@@ -30,6 +30,8 @@ Este repositório contém os assets usados para explorar a base de dados de cult
 
 Todo o projeto explicado neste tutorial esta detalhado (usando a mesma estrutura de capíulos no Jupyter Notebook na pasta assets deste repositório: [Codigo](assets/RichardMarques_rm563313_pbl_fase5.ipynb)
 
+O projeto foi também explicado no video postado no youtube. <a href="https://youtu.be/4RHRzyVQJVc">Video Youtube - Modelos de Machine Learning</a>
+
 ### Pre-requisitos
 
 Para executar os códigos deste repostório você vai precisar atender os seguintes requisitos técnicos:
@@ -208,7 +210,7 @@ a) Clique no botão "Criar uma estimativa"
 
 b) Escolha "Pesquisa por tipo de Local", mantenha a opção "Estolher um tipo de local" como "Região", e no campo "Escolher Região" escolha a opção: "sa-east-1".
 
-Esta região é a única da AWS disponível no Brasil, para projetos em por questões de legislação, como a LDGP, onde os dados não podem sair do pais, esta é a opção que mantem você aderente as estas restrições.
+Esta região é a única da AWS disponível no Brasil, vamos seguir com ela por hora. 
 
 ![Escolha da região](assets/4_2_b.png)
 
@@ -221,7 +223,7 @@ d) Preencha os campos abaixo:
 - Sistema operacional: "Linux"
 - Cargas de trabalho: "Uso constante"
 - Número de Instâncias: "1"
-- Pesquisa tipo de Instancia: "t3.micro"
+- Pesquisa tipo de Instancia: "t4g.micro"
 
 Feito isso você verá que na lista de instancias aparecerá somente uma instância e ela tem os requisitos que precisamos, selecinoe ela na lista e confirme no botão "Salvar e adicionar serviço"
 
@@ -235,8 +237,16 @@ Com isso a calculadora vai mostrar um resumo dos seus custos, que para o meu usu
 
 ![Resumo final](assets/4_2_f.png)
 
+f) Repita os passos, com exceção do item b você vai escolher outra região, a de N. Virginia
+
+Ao final do processo você vai ver que o custo do mesmo servidor nesta região é quase metade do preço. A cotação final para o mesmo serviço é de US$ 36,84.
+
+![Resumo dos custos em N. da Virgínia](assets/4_2_f2.png)
+
+g) Caso você tenha uma restrição por questão de legislação por exemplo de que os dados precisam ficar no pais, no caso o Brasil, mesmo sendo mais caro a opção seria provisionar os serviços na Região sa-east-1.
+
 Segue o link para o video da explicação do uso da calculadora AWS: 
-<a href="https://youtu.be/fE5j5tk_hIk">Video no Youtube</a>
+<a href="https://youtu.be/zrM5vME0alo">Video no Youtube</a>
 
 ## 📁 Estrutura de pastas
 
